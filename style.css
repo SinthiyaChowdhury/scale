@@ -1,0 +1,26 @@
+.box{
+	margin:300px 550px;
+	width:120px;
+	height:120px;
+	background:#fbc9d2;
+	text-align:center;
+	line-height:120px;
+	color:#3F51B5;
+	border:3px solid #3F51B5;
+	border-radius:100%;
+	position:absolute;
+	animation-name:animated;
+	animation-duration:2.5s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+	transform:rotate;
+}
+@keyframes animated{
+	0%{
+	
+		border-radius:100%;
+	}
+	100%{
+	border-radius:0%;
+	}
+}
